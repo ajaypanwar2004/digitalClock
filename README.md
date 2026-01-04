@@ -47,8 +47,9 @@ Copy code
 ## ▶️ How to Run the Project
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/ajaypanwar2004/your-repo-name.git
+   
+git clone https://ajaypanwar2004.github.io/digitalClock/
+
 Open index.html in your browser
 (No server or installation required)
 
