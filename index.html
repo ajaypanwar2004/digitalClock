@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+     <script type="text/javascript" src="new.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+     <div class="icon">
+          <i class="fa fa-github" style="font-size:24px"></i>
+          <a href="https://github.com/ajaypanwar2004"><h1 id="username">ajaypanwar2004</h1></a>
+          
+     </div>
+     <div class="container">
+          <div id="time">
+               <div class="circle" style="--color: #ff2972">
+                    <div class="dots h_dot"></div>
+                    <svg>
+                         <circle cx="70" cy="70" r="70"></circle>
+                         <circle cx="70" cy="70" r="70" id="hh"></circle>
+                    </svg>
+                    <div id="hours">00</div>
+               </div>
+               <div class="circle" style="--color: #fee800">
+                    <div class="dots m_dot"></div>
+                    <svg>
+                         <circle cx="70" cy="70" r="70"></circle>
+                         <circle cx="70" cy="70" r="70" id="mm"></circle>
+                    </svg>
+                    <div id="minutes">00</div>
+               </div>
+               <div class="circle" style="--color: #04fc43">
+                    <div class="dots s_dot"></div>
+                    <svg>
+                         <circle cx="70" cy="70" r="70"></circle>
+                         <circle cx="70" cy="70" r="70" id="ss"></circle>
+                    </svg>
+                    <div id="seconds">00</div>
+               </div>
+               <div class="ap">
+                    <div id="ampm">AM</div>
+               </div>
+          </div>
+     </div>
+     <!-- STOPWATCH -->
+     <div class="container">
+          <div id="stopwatch">
+               <h2>Stopwatch</h2>
+               <h1 id="sw-time">
+                    00 : 00 : 00 <span id="ms">000</span>
+               </h1>
+
+               <div class="sw-btns">
+                    <button class="start" onclick="startStopwatch()">Start</button>
+                    <button class="stop" onclick="stopStopwatch()">Stop</button>
+                    <button class="reset" onclick="resetStopwatch()">Reset</button>
+               </div>
+          </div>
+     </div>
+
+
+
+</body>
+
+</html>
